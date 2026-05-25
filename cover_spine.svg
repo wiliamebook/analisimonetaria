@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 2700">
+<rect width="200" height="2700" fill="#0a1628"/>
+
+<!-- Linee decorate -->
+<g stroke="#e94560" stroke-width="2" fill="none" opacity="0.5">
+<line x1="100" y1="50" x2="100" y2="2650"/>
+<line x1="50" y1="100" x2="150" y2="100"/>
+<line x1="50" y1="2600" x2="150" y2="2600"/>
+</g>
+
+<!-- Title (verticale) -->
+<text x="145" y="100" transform="rotate(90, 145, 100)" text-anchor="middle" font-family="Georgia, serif" font-size="35" fill="#ffffff" font-weight="bold">ROSETTINI</text>
+<text x="145" y="1400" transform="rotate(90, 145, 1400)" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#e94560">Analisi Sistema</text>
+<text x="145" y="2100" transform="rotate(90, 145, 2100)" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#888888">Monetario</text>
+
+</svg>

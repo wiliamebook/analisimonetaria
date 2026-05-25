@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 2700">
+<defs>
+<!-- Gradient SFONDO -->
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#0a1628"/>
+<stop offset="100%" style="stop-color:#051020"/>
+</linearGradient>
+<!-- Gradient FLUSSO -->
+<linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#e94560;stop-opacity:0"/>
+<stop offset="50%" style="stop-color:#e94560;stop-opacity:0.8"/>
+<stop offset="100%" style="stop-color:#e94560;stop-opacity:0"/>
+</linearGradient>
+</defs>
+
+<!-- SFONDO -->
+<rect width="1800" height="2700" fill="url(#bgGrad)"/>
+
+<!-- Linee architettura-fluente -->
+<g stroke="#e94560" stroke-width="3" fill="none" opacity="0.7">
+<!-- Arco sinistro -->
+<path d="M200,400 Q400,200 600,400 T1100,350" />
+<path d="M180,600 Q380,350 620,550 T1150,450" />
+<path d="M160,800 Q360,500 650,700 T1200,550" />
+<path d="M140,1000 Q340,650 680,850 T1250,650" />
+<!-- Arco destro -->
+<path d="M1600,400 Q1400,200 1200,400 T700,350" />
+<path d="M1620,600 Q1420,350 1180,550 T650,450" />
+<path d="M1640,800 Q1440,500 1150,700 T600,550" />
+<path d="M1660,1000 Q1460,650 1120,850 T550,650" />
+</g>
+
+<!-- Struttura geometrica centro -->
+<g stroke="#ffffff" stroke-width="2" fill="none" opacity="0.3">
+<rect x="500" y="1200" width="800" height="600" rx="20"/>
+<rect x="550" y="1250" width="700" height="500" rx="15"/>
+<circle cx="900" cy="1500" r="150" stroke-width="1"/>
+</g>
+
+<!-- Cerchi fluente -->
+<g fill="none" stroke="#e94560" stroke-width="4" opacity="0.5">
+<circle cx="900" cy="700" r="200"/>
+<circle cx="900" cy="700" r="280"/>
+<circle cx="900" cy="700" r="360"/>
+</g>
+
+<!-- TITLE -->
+<text x="900" y="2200" text-anchor="middle" font-family="Georgia, serif" font-size="120" fill="#ffffff" font-weight="bold">ANALISI DEL</text>
+<text x="900" y="2350" text-anchor="middle" font-family="Georgia, serif" font-size="100" fill="#e94560" font-weight="bold">SISTEMA</text>
+<text x="900" y="2480" text-anchor="middle" font-family="Georgia, serif" font-size="100" fill="#ffffff" font-weight="bold">MONETARIO</text>
+<text x="900" y="2610" text-anchor="middle" font-family="Georgia, serif" font-size="70" fill="#e94560">BANCARIO CONTEMPORANEO</text>
+
+<!-- AUTHOR -->
+<text x="900" y="2650" text-anchor="middle" font-family="Georgia, serif" font-size="50" fill="#888888">William Rosettini</text>
+
+</svg>
